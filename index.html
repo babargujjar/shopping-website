@@ -583,6 +583,63 @@
     <div class="btns">
         <button>View All Products</button>
     </div>
+    <section class="secondlast">
+        <div class="container">
+            <div class="money">
+                <img src="money.png" alt="">
+            </div>
+            <div class="money">
+                <img src="customer.png" alt="">
+            </div>
+            <div class="money">
+                <img src="free and fast.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="first">
+                <h2>Exclusive</h2>
+                <h3>Subscribe</h3>
+                <h5>Get 10% Off Your First Order</h5>
+                <div class="email">
+                    <input placeholder="Enter your email" type="text">
+                    <i class='bx bx-chevrons-right'></i>
+                </div>
+            </div>
+            <div class="second">
+                <h2>Support</h2>
+                <h5>111 bejoy sarani,Dhaka,<br>DH 1515,Bangladesh</h5>
+                <h5>Exclusive@gmail.com</h5>
+                <h5>+88015-88888-9999</h5>
+            </div>
+            <div class="second">
+                <h2>Account</h2>
+                <h5>My Account</h5>
+                <h5>Login/Register</h5>
+                <h5>Cart</h5>
+                <h5>Wishlist</h5>
+            </div>
+            <div class="second">
+                <h2>Quick Link</h2>
+                <h5>Privacy Policy</h5>
+                <h5>Turms Of Use</h5>
+                <h5>FAQ's</h5>
+                <h5>Contact</h5>
+            </div>
+            <div class="third">
+                <h2>Download App</h2>
+                <h6>Save $3 with app</h6>
+                <div class="icon">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </footer>
 
 
     <style>
@@ -635,6 +692,78 @@
                 transition: 1s;
             }
         }
+        
+        /* footer style start */
+        footer {
+            background-color: #000;
+            margin-top: 100px;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+
+        footer .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            color: #ffff;
+
+            & h2 {
+                padding: 15px 0px;
+                color: #ffff;
+                cursor: pointer;
+            }
+
+            & h5 {
+                padding: 5px 0px;
+                color: #ffff;
+                cursor: pointer;
+
+            }
+
+            & .first .email {
+                position: relative;
+
+                & input {
+                    padding: 10px ;
+                    background-color: #000;
+                    color: #ffff;
+                    border: 1px solid #ffff;
+                }
+
+                & i {
+                    position: absolute;
+                    top: 13px;
+                    right: 75px;
+                    cursor: pointer;
+                    color: #ffff;
+
+
+                }
+
+            }
+
+            & .third .icon {
+                margin-top: 20px;
+
+                & i {
+                    padding: 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        /* footer style end */
+           /* second last section start */
+           .secondlast .container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        /* second last section end */
 
         /* enhance style start */
         .enhance .container {
